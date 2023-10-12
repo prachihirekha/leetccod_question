@@ -1,9 +1,11 @@
-package bootcoding.leetcodeque;
+package bootcoding.leetcodeque.leetcode;
+
+import bootcoding.leetcodeque.TreeNode1;
 
 public class Insert {
-    public static TreeNode1 insert(TreeNode1 root, int val){
+    public static TreeNode2 insert(TreeNode2 root, int val){
         if(root == null){
-            root  = new TreeNode1((val));
+            root  = new TreeNode2((val));
             return  root;
         }
         if(root.data>val){
@@ -15,7 +17,7 @@ public class Insert {
         }
         return  root;
     }
-    public  static void inOrder(TreeNode1 root){
+    public  static void inOrder(TreeNode2 root){
         if(root == null){
             return;
         }
@@ -26,7 +28,7 @@ public class Insert {
 
     public static void main(String[] args) {
         int values [] ={5,1,3,4,2,7};
-        TreeNode1 root = null;
+        TreeNode2 root = null;
         for(int i =0;i<values.length;i++){
             root =insert(root,values[i]);
         }
