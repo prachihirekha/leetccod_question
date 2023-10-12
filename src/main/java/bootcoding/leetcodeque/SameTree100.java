@@ -1,7 +1,7 @@
 package bootcoding.leetcodeque;
 
 public class SameTree100 {
-    public static boolean sameTree(TreeNode1 p,TreeNode1 q) {
+    public static boolean sameTree(TreeNode1 p, TreeNode1 q) {
         if (p == null && q == null) {
             return true;
         }

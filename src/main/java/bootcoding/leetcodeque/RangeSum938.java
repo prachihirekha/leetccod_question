@@ -1,7 +1,7 @@
 package bootcoding.leetcodeque;
 
 public class RangeSum938 {
-    public static int rangeSumBST(TreeNode1 root,int low,int high)
+    public static int rangeSumBST(TreeNode1 root, int low, int high)
     {
         int sum =0;
         if(root ==null){
