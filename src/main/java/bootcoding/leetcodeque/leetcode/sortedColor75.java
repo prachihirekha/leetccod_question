@@ -1,4 +1,4 @@
-package bootcoding.leetcodeque;
+package bootcoding.leetcodeque.leetcode;
 
 public class sortedColor75 {
     public static void main(String[] args) {

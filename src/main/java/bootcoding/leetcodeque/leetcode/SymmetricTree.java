@@ -1,13 +1,15 @@
-package bootcoding.leetcodeque;
+package bootcoding.leetcodeque.leetcode;
+
+import bootcoding.leetcodeque.TreeNode1;
 
 public class SymmetricTree {
-   public static boolean isSymmetric(TreeNode1 root){
+   public static boolean isSymmetric(TreeNode2 root){
        if(root == null ){
            return true;
        }
        return isMirror(root.left,root.right);
    }
-   public  static boolean isMirror(TreeNode1 left,TreeNode1 right){
+   public  static boolean isMirror(TreeNode2 left,TreeNode2 right){
        if(left == null && right ==null){
            return true;
        }
@@ -19,13 +21,13 @@ public class SymmetricTree {
    }
 
     public static void main(String[] args) {
-        TreeNode1 root =new TreeNode1(1);
-        root.left =new TreeNode1(2);
-        root.left.left =new TreeNode1(3);
-        root.left.right =new TreeNode1(4);
-        root.right =new TreeNode1(2);
-        root.right.left =new TreeNode1(4);
-        root.right.right =new TreeNode1(3);
+        TreeNode2 root =new TreeNode2(1);
+        root.left =new TreeNode2(2);
+        root.left.left =new TreeNode2(3);
+        root.left.right =new TreeNode2(4);
+        root.right =new TreeNode2(2);
+        root.right.left =new TreeNode2(4);
+        root.right.right =new TreeNode2(3);
         System.out.println(isSymmetric(root));
     }
 }
