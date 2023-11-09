@@ -1,4 +1,4 @@
-package bootcoding.dsa_practice;
+package bootcoding.collection;
 
 import java.util.ArrayList;
 
