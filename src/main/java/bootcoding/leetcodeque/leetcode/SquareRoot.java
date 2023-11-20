@@ -21,7 +21,7 @@ public class SquareRoot {
         }
 
     public static void main(String[] args) {
-        int n=mySqrt(16);
+        int n=mySqrt(8);
         System.out.println(n);
     }
     }
