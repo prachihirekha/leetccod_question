@@ -16,6 +16,9 @@ public class Demo {
         System.out.println(l1);
         l1.remove(2);
         System.out.println(l1);
+        l1.addFirst("madhu");
+        l1.addLast("ravi");
+        System.out.println(l1);
 
     }
 }
